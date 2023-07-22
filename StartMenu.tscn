@@ -20,11 +20,11 @@ rect_scale = Vector2( 2.5, 2.5 )
 margin_right = 187.0
 margin_bottom = 20.0
 focus_neighbour_top = NodePath("../QuitButton")
-custom_colors/font_color_disabled = Color( 0, 0, 0, 1 )
-custom_colors/font_color_focus = Color( 0, 0, 0, 1 )
+custom_colors/font_color_disabled = Color( 1, 1, 1, 1 )
+custom_colors/font_color_focus = Color( 1, 1, 1, 1 )
 custom_colors/font_color = Color( 1, 1, 1, 1 )
-custom_colors/font_color_hover = Color( 0, 0, 0, 1 )
-custom_colors/font_color_pressed = Color( 0, 0, 0, 1 )
+custom_colors/font_color_hover = Color( 1, 1, 1, 1 )
+custom_colors/font_color_pressed = Color( 1, 1, 1, 1 )
 text = "Start"
 
 [node name="Customization" type="Button" parent="VBoxContainer"]
