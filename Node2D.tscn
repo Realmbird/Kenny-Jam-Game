@@ -163,14 +163,6 @@ normal_map = ExtResource( 1 )
 region_enabled = true
 region_rect = Rect2( 187, 102, 16, 16 )
 
-[node name="Sprite58" type="Sprite" parent="."]
-position = Vector2( 216, 40 )
-rotation = 1.5708
-texture = ExtResource( 1 )
-normal_map = ExtResource( 1 )
-region_enabled = true
-region_rect = Rect2( 187, 102, 16, 16 )
-
 [node name="Sprite22" type="Sprite" parent="."]
 position = Vector2( 140, 42 )
 texture = ExtResource( 1 )
@@ -427,3 +419,737 @@ texture = ExtResource( 1 )
 normal_map = ExtResource( 1 )
 region_enabled = true
 region_rect = Rect2( 204, 153, 16, 16 )
+
+[node name="Sprite58" type="Sprite" parent="."]
+position = Vector2( 216, 40 )
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 272, 221, 16, 16 )
+
+[node name="Sprite59" type="Sprite" parent="."]
+position = Vector2( 264, 48 )
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 289, 221, 16, 16 )
+
+[node name="Sprite60" type="Sprite" parent="."]
+position = Vector2( 232, 56 )
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 306, 221, 16, 16 )
+
+[node name="Sprite61" type="Sprite" parent="."]
+position = Vector2( 272, 72 )
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 323, 221, 16, 16 )
+
+[node name="Sprite62" type="Sprite" parent="."]
+position = Vector2( 248, 72 )
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 340, 221, 16, 16 )
+
+[node name="Sprite63" type="Sprite" parent="."]
+position = Vector2( 232, 80 )
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 102, 51, 16, 16 )
+
+[node name="Sprite64" type="Sprite" parent="."]
+position = Vector2( 232, 96 )
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 102, 68, 16, 16 )
+
+[node name="Sprite65" type="Sprite" parent="."]
+position = Vector2( 304, 96 )
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 153, 136, 16, 16 )
+
+[node name="Sprite66" type="Sprite" parent="."]
+position = Vector2( 280, 96 )
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 170, 136, 16, 16 )
+
+[node name="Sprite67" type="Sprite" parent="."]
+position = Vector2( 304, 72 )
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 187, 136, 16, 16 )
+
+[node name="Sprite68" type="Sprite" parent="."]
+position = Vector2( 328, 72 )
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 204, 136, 16, 16 )
+
+[node name="Sprite69" type="Sprite" parent="."]
+position = Vector2( 328, 96 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 51, 67, 16, 16 )
+
+[node name="Sprite70" type="Sprite" parent="."]
+position = Vector2( 360, 96 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 51, 51, 16, 16 )
+
+[node name="Sprite71" type="Sprite" parent="."]
+position = Vector2( 400, 96 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 34, 51, 16, 16 )
+
+[node name="Sprite72" type="Sprite" parent="."]
+position = Vector2( 400, 112 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 17, 51, 16, 16 )
+
+[node name="Sprite73" type="Sprite" parent="."]
+position = Vector2( 384, 112 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 0, 67, 16, 16 )
+
+[node name="Sprite74" type="Sprite" parent="."]
+position = Vector2( 368, 112 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 52, 35, 16, 16 )
+
+[node name="Sprite75" type="Sprite" parent="."]
+position = Vector2( 344, 112 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 34, 35, 16, 16 )
+
+[node name="Sprite76" type="Sprite" parent="."]
+position = Vector2( 344, 128 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( -1, 35, 16, 16 )
+
+[node name="Sprite77" type="Sprite" parent="."]
+position = Vector2( 320, 128 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 221, 238, 16, 16 )
+
+[node name="Sprite78" type="Sprite" parent="."]
+position = Vector2( 296, 128 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 204, 238, 16, 16 )
+
+[node name="Sprite79" type="Sprite" parent="."]
+position = Vector2( 272, 128 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 170, 272, 16, 16 )
+
+[node name="Sprite80" type="Sprite" parent="."]
+position = Vector2( 256, 128 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 187, 272, 16, 16 )
+
+[node name="Sprite81" type="Sprite" parent="."]
+position = Vector2( 240, 128 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 170, 289, 16, 16 )
+
+[node name="Sprite82" type="Sprite" parent="."]
+position = Vector2( 224, 128 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 187, 289, 16, 16 )
+
+[node name="Sprite83" type="Sprite" parent="."]
+position = Vector2( 224, 112 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 221, 272, 16, 16 )
+
+[node name="Sprite84" type="Sprite" parent="."]
+position = Vector2( 208, 112 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 238, 271, 16, 16 )
+
+[node name="Sprite85" type="Sprite" parent="."]
+position = Vector2( 192, 112 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 238, 255, 16, 16 )
+
+[node name="Sprite86" type="Sprite" parent="."]
+position = Vector2( 176, 112 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 239, 238, 16, 16 )
+
+[node name="Sprite87" type="Sprite" parent="."]
+position = Vector2( -24, 104 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 221, 204, 16, 16 )
+
+[node name="Sprite88" type="Sprite" parent="."]
+position = Vector2( 0, 104 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 204, 204, 16, 16 )
+
+[node name="Sprite89" type="Sprite" parent="."]
+position = Vector2( 24, 104 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 204, 221, 16, 16 )
+
+[node name="Sprite90" type="Sprite" parent="."]
+position = Vector2( 24, 128 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 221, 221, 16, 16 )
+
+[node name="Sprite91" type="Sprite" parent="."]
+position = Vector2( 72, 128 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 204, 33, 16, 17 )
+
+[node name="Sprite92" type="Sprite" parent="."]
+position = Vector2( 96, 128 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 221, 34, 16, 16 )
+
+[node name="Sprite93" type="Sprite" parent="."]
+position = Vector2( 120, 128 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 255, 34, 16, 16 )
+
+[node name="Sprite94" type="Sprite" parent="."]
+position = Vector2( 144, 128 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 204, 68, 16, 16 )
+
+[node name="Sprite95" type="Sprite" parent="."]
+position = Vector2( 168, 128 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 238, 68, 16, 16 )
+
+[node name="Sprite96" type="Sprite" parent="."]
+position = Vector2( 72, 152 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 255, 68, 16, 16 )
+
+[node name="Sprite97" type="Sprite" parent="."]
+position = Vector2( 96, 152 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 289, 17, 16, 16 )
+
+[node name="Sprite98" type="Sprite" parent="."]
+position = Vector2( 120, 152 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 340, 17, 16, 16 )
+
+[node name="Sprite99" type="Sprite" parent="."]
+position = Vector2( 144, 152 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 340, 0, 16, 16 )
+
+[node name="Sprite100" type="Sprite" parent="."]
+position = Vector2( 168, 152 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 323, 0, 16, 16 )
+
+[node name="Sprite101" type="Sprite" parent="."]
+position = Vector2( 168, 176 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 136, 0, 16, 16 )
+
+[node name="Sprite102" type="Sprite" parent="."]
+position = Vector2( 144, 176 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 153, 0, 16, 16 )
+
+[node name="Sprite103" type="Sprite" parent="."]
+position = Vector2( 120, 176 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 170, 0, 16, 16 )
+
+[node name="Sprite104" type="Sprite" parent="."]
+position = Vector2( 96, 176 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 170, 17, 16, 16 )
+
+[node name="Sprite105" type="Sprite" parent="."]
+position = Vector2( 72, 176 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 136, 17, 16, 16 )
+
+[node name="Sprite106" type="Sprite" parent="."]
+position = Vector2( 72, 200 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 187, 17, 16, 16 )
+
+[node name="Sprite107" type="Sprite" parent="."]
+position = Vector2( 96, 200 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 204, 17, 16, 16 )
+
+[node name="Sprite108" type="Sprite" parent="."]
+position = Vector2( 120, 200 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 204, 0, 16, 16 )
+
+[node name="Sprite109" type="Sprite" parent="."]
+position = Vector2( 144, 200 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 221, 0, 16, 16 )
+
+[node name="Sprite110" type="Sprite" parent="."]
+position = Vector2( 168, 200 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 221, 17, 16, 16 )
+
+[node name="Sprite111" type="Sprite" parent="."]
+position = Vector2( 168, 224 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 238, 0, 16, 16 )
+
+[node name="Sprite112" type="Sprite" parent="."]
+position = Vector2( 144, 224 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 255, 0, 16, 16 )
+
+[node name="Sprite113" type="Sprite" parent="."]
+position = Vector2( 120, 224 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 238, 17, 16, 16 )
+
+[node name="Sprite114" type="Sprite" parent="."]
+position = Vector2( 96, 224 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 255, 17, 16, 16 )
+
+[node name="Sprite115" type="Sprite" parent="."]
+position = Vector2( 72, 224 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 255, 17, 16, 16 )
+
+[node name="Sprite116" type="Sprite" parent="."]
+position = Vector2( 72, 248 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 136, 34, 16, 16 )
+
+[node name="Sprite117" type="Sprite" parent="."]
+position = Vector2( 96, 248 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 153, 34, 16, 16 )
+
+[node name="Sprite118" type="Sprite" parent="."]
+position = Vector2( 120, 248 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 170, 34, 16, 16 )
+
+[node name="Sprite119" type="Sprite" parent="."]
+position = Vector2( 144, 248 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 187, 34, 16, 16 )
+
+[node name="Sprite120" type="Sprite" parent="."]
+position = Vector2( 168, 248 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 272, 34, 16, 16 )
+
+[node name="Sprite121" type="Sprite" parent="."]
+position = Vector2( 168, 272 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 289, 34, 16, 16 )
+
+[node name="Sprite122" type="Sprite" parent="."]
+position = Vector2( 144, 272 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 306, 34, 16, 16 )
+
+[node name="Sprite123" type="Sprite" parent="."]
+position = Vector2( 120, 272 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 323, 34, 16, 16 )
+
+[node name="Sprite124" type="Sprite" parent="."]
+position = Vector2( 96, 272 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 340, 34, 16, 16 )
+
+[node name="Sprite125" type="Sprite" parent="."]
+position = Vector2( 72, 272 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 272, 51, 16, 16 )
+
+[node name="Sprite126" type="Sprite" parent="."]
+position = Vector2( 72, 296 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 289, 51, 16, 16 )
+
+[node name="Sprite127" type="Sprite" parent="."]
+position = Vector2( 96, 296 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 306, 51, 16, 16 )
+
+[node name="Sprite128" type="Sprite" parent="."]
+position = Vector2( 120, 296 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 323, 51, 16, 16 )
+
+[node name="Sprite129" type="Sprite" parent="."]
+position = Vector2( 144, 296 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 340, 51, 16, 16 )
+
+[node name="Sprite130" type="Sprite" parent="."]
+position = Vector2( 168, 296 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 272, 68, 16, 16 )
+
+[node name="Sprite131" type="Sprite" parent="."]
+position = Vector2( 168, 320 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 289, 68, 16, 16 )
+
+[node name="Sprite132" type="Sprite" parent="."]
+position = Vector2( 144, 320 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 306, 67, 16, 17 )
+
+[node name="Sprite133" type="Sprite" parent="."]
+position = Vector2( 120, 320 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 323, 68, 16, 16 )
+
+[node name="Sprite134" type="Sprite" parent="."]
+position = Vector2( 96, 320 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 340, 68, 16, 16 )
+
+[node name="Sprite135" type="Sprite" parent="."]
+position = Vector2( 72, 320 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 136, 51, 16, 16 )
+
+[node name="Sprite136" type="Sprite" parent="."]
+position = Vector2( 72, 344 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 153, 51, 16, 16 )
+
+[node name="Sprite137" type="Sprite" parent="."]
+position = Vector2( 96, 344 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 170, 51, 16, 16 )
+
+[node name="Sprite138" type="Sprite" parent="."]
+position = Vector2( 120, 344 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 187, 51, 16, 16 )
+
+[node name="Sprite139" type="Sprite" parent="."]
+position = Vector2( 144, 344 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 204, 51, 16, 16 )
+
+[node name="Sprite140" type="Sprite" parent="."]
+position = Vector2( 328, 200 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 118, 0, 16, 16 )
+
+[node name="Sprite141" type="Sprite" parent="."]
+position = Vector2( 344, 200 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 118, 17, 16, 16 )
