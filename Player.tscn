@@ -13,7 +13,6 @@ radius = 7.0
 height = 0.0
 
 [node name="Player" type="KinematicBody2D"]
-z_index = 3
 collision_layer = 2
 script = ExtResource( 2 )
 
@@ -84,11 +83,11 @@ region_rect = Rect2( 566, 4, 135, 151 )
 
 [node name="healthbar" type="ProgressBar" parent="."]
 modulate = Color( 0.290196, 1, 0, 1 )
-margin_left = -80.0
-margin_top = 11.0
-margin_right = 80.0
-margin_bottom = 91.0
-rect_scale = Vector2( 1, 0.1 )
+margin_left = -8.0
+margin_top = 8.0
+margin_right = 152.0
+margin_bottom = 22.0
+rect_scale = Vector2( 0.1, 0.1 )
 percent_visible = false
 
 [node name="regen_timer" type="Timer" parent="."]

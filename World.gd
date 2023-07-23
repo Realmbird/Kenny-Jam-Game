@@ -9,3 +9,8 @@ func spawn():
 	if time > 0.8:
 		timer.wait_time = time 
 		time = time - 0.0005
+
+
+func _on_Area2D_area_entered(area):
+		get_tree().change_scene("res://Control.tscn")
+
