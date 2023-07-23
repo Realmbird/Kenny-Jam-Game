@@ -10,4 +10,4 @@ script = ExtResource( 2 )
 z_index = 5
 texture = ExtResource( 1 )
 region_enabled = true
-region_rect = Rect2( 48, 145, 16, 16 )
+region_rect = Rect2( 48.8503, 145.663, 15.1497, 15.2024 )
