@@ -52,10 +52,14 @@ func _on_regen_timer_timeout():
 			health = 100
 	if health <= 0:
 		health = 0
+		get_tree().reload_current_scene()
 		
 func shoot():
 	var bullet = load("res://Attacks/Floating Sword.tscn").instance()
 	add_child(bullet)
+func hit():
+	health -= 10
+	update_health()
 
 	
 
