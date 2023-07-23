@@ -299,7 +299,14 @@ collision_mask = 0
 format = 1
 tile_data = PoolIntArray( 1835019, 64, 0, 1900555, 64, 0, 1966091, 64, 0, 2031622, 85, 0, 2031627, 64, 0, 2097163, 64, 0, 2162699, 64, 0, 2162700, 87, 0, 2228235, 65, 0, 2293765, 84, 0, 2359308, 84, 0, 2424835, 1610612761, 0, 2424845, -1610612711, 0 )
 
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
+process_mode = 0
+
 [node name="Player" parent="." instance=ExtResource( 2 )]
+
+[node name="RemoteTransform2D" type="RemoteTransform2D" parent="Player"]
+remote_path = NodePath("../../Camera2D")
 
 [node name="TileMap3" type="TileMap" parent="."]
 position = Vector2( -8, -8 )
@@ -312,4 +319,7 @@ format = 1
 tile_data = PoolIntArray( -2228187, 11, 0, 720911, 5, 0 )
 
 [node name="Chest" parent="." instance=ExtResource( 21 )]
-collision_mask = 2
+position = Vector2( 487, 391 )
+collision_layer = 1
+
+[editable path="Chest"]

@@ -2,7 +2,7 @@
 
 [ext_resource path="res://kenney_roguelike-characters/Spritesheet/roguelikeChar_transparent.png" type="Texture" id=1]
 [ext_resource path="res://Player.gd" type="Script" id=2]
-[ext_resource path="res://Hurtbox.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Collisions/Hurtbox.tscn" type="PackedScene" id=3]
 
 [sub_resource type="CapsuleShape2D" id=1]
 radius = 6.0
@@ -94,7 +94,7 @@ percent_visible = false
 wait_time = 5.0
 autostart = true
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="Feet" type="CollisionShape2D" parent="."]
 position = Vector2( 0, 3 )
 shape = SubResource( 1 )
 
