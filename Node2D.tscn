@@ -687,13 +687,31 @@ region_enabled = true
 region_rect = Rect2( 204, 221, 16, 16 )
 
 [node name="Sprite90" type="Sprite" parent="."]
-position = Vector2( 24, 128 )
+position = Vector2( 23, 129 )
 z_index = 5
 z_as_relative = false
 texture = ExtResource( 1 )
 normal_map = ExtResource( 1 )
 region_enabled = true
 region_rect = Rect2( 221, 221, 16, 16 )
+
+[node name="Sprite142" type="Sprite" parent="."]
+position = Vector2( -3, 128 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 254.3, 221.036, 16.064, 16.064 )
+
+[node name="Sprite143" type="Sprite" parent="."]
+position = Vector2( -28, 129 )
+z_index = 5
+z_as_relative = false
+texture = ExtResource( 1 )
+normal_map = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 238.226, 186.981, 16.064, 16.064 )
 
 [node name="Sprite91" type="Sprite" parent="."]
 position = Vector2( 72, 128 )
