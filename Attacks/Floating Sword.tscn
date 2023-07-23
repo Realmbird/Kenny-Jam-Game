@@ -6,7 +6,7 @@
 [ext_resource path="res://Sound/Laser Gun.mp3" type="AudioStream" id=4]
 
 [sub_resource type="Animation" id=5]
-length = 2.0
+length = 4.0
 loop = true
 tracks/0/type = "value"
 tracks/0/path = NodePath("AudioStreamPlayer2D:playing")
@@ -53,7 +53,7 @@ tracks/3/keys = {
 
 [sub_resource type="Animation" id=3]
 resource_name = "Shoot"
-length = 2.0
+length = 4.0
 tracks/0/type = "bezier"
 tracks/0/path = NodePath(".:rotation_degrees")
 tracks/0/interp = 1
@@ -61,8 +61,8 @@ tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"points": PoolRealArray( 0, -0.25, 0, 0.25, 0, 360, -0.25, 0, 0.25, 0 ),
-"times": PoolRealArray( 0, 2 )
+"points": PoolRealArray( 0, -0.25, 0, 0.25, 0, 360, -0.25, 0, 0.25, 0, 720, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 2, 4 )
 }
 tracks/1/type = "bezier"
 tracks/1/path = NodePath("Node2D:position:x")
@@ -84,31 +84,31 @@ tracks/2/keys = {
 "points": PoolRealArray( 0, -0.25, 0, 0.25, 0, 0, -0.25, 0, 0.25, 0 ),
 "times": PoolRealArray( 0, 2 )
 }
-tracks/3/type = "method"
-tracks/3/path = NodePath(".")
+tracks/3/type = "value"
+tracks/3/path = NodePath("AudioStreamPlayer2D:playing")
 tracks/3/interp = 1
 tracks/3/loop_wrap = true
 tracks/3/imported = false
 tracks/3/enabled = true
 tracks/3/keys = {
-"times": PoolRealArray( 2 ),
-"transitions": PoolRealArray( 1 ),
-"values": [ {
-"args": [  ],
-"method": "queue_free"
-} ]
+"times": PoolRealArray( 0, 2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
 }
-tracks/4/type = "value"
-tracks/4/path = NodePath("AudioStreamPlayer2D:playing")
+tracks/4/type = "method"
+tracks/4/path = NodePath(".")
 tracks/4/interp = 1
 tracks/4/loop_wrap = true
 tracks/4/imported = false
 tracks/4/enabled = true
 tracks/4/keys = {
-"times": PoolRealArray( 0, 2 ),
-"transitions": PoolRealArray( 1, 1 ),
-"update": 1,
-"values": [ true, false ]
+"times": PoolRealArray( 4 ),
+"transitions": PoolRealArray( 1 ),
+"values": [ {
+"args": [  ],
+"method": "queue_free"
+} ]
 }
 
 [sub_resource type="Animation" id=4]
