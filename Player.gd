@@ -16,9 +16,9 @@ func _ready():
 
 func _physics_process(delta):
 	
-		
 	update_health()
-	
+
+
 	var input_vector = Vector2.ZERO
 	input_vector.x = Input.get_action_strength("ui_right") - Input.get_action_strength("ui_left") 
 	input_vector.y = Input.get_action_strength("ui_down") - Input.get_action_strength("ui_up") 
@@ -45,17 +45,12 @@ func update_health():
 
 
 func _on_regen_timer_timeout():
-	shoot()
 	if health < 100:
 		health = health + 20
 		if health > 100:
 			health = 100
 	if health <= 0:
 		health = 0
-		
-func shoot():
-	var bullet = load("res://Attacks/Floating Sword.tscn").instance()
-	add_child(bullet)
 
 	
 

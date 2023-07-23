@@ -126,7 +126,7 @@ position = Vector2( 112, 28 )
 texture = ExtResource( 1 )
 normal_map = ExtResource( 1 )
 region_enabled = true
-region_rect = Rect2( 136, 119, 16, 16 )
+region_rect = Rect2( 135.853, 119, 16.1473, 16 )
 
 [node name="Sprite17" type="Sprite" parent="."]
 position = Vector2( 126, 28 )
