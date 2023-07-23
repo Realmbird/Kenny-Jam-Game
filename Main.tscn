@@ -1,4 +1,4 @@
-[gd_scene load_steps=27 format=2]
+[gd_scene load_steps=28 format=2]
 
 [ext_resource path="res://Map.tres" type="TileSet" id=1]
 [ext_resource path="res://Player.tscn" type="PackedScene" id=2]
@@ -24,6 +24,7 @@
 [ext_resource path="res://World.gd" type="Script" id=22]
 [ext_resource path="res://NonCollidemap.tres" type="TileSet" id=23]
 [ext_resource path="res://Collect.tscn" type="PackedScene" id=24]
+[ext_resource path="res://HUD.gd" type="Script" id=25]
 
 [sub_resource type="TileSet" id=1]
 0/name = "tile_0009.png 0"
@@ -366,16 +367,20 @@ position = Vector2( -1441.5, -2448 )
 z_index = 10
 shape = SubResource( 2 )
 
-[node name="Node2D" type="Node2D" parent="."]
-z_index = 662
+[node name="HUD" type="CanvasLayer" parent="."]
+script = ExtResource( 25 )
 
-[node name="Label2" type="Label" parent="Node2D"]
-margin_left = 326.0
-margin_top = -188.0
-margin_right = 375.0
-margin_bottom = -157.0
-text = "0
-"
+[node name="Label" type="Label" parent="HUD"]
+margin_right = 40.0
+margin_bottom = 14.0
+
+[node name="Label2" type="Label" parent="HUD"]
+anchor_top = 1.0
+anchor_bottom = 1.0
+margin_top = -14.0
+margin_right = 40.0
+text = "Press Space or Enter to use special Move,
+After getting a Certain amount of bodies"
 
 [connection signal="timeout" from="World/Timer" to="World" method="spawn"]
 

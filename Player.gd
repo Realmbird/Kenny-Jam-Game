@@ -15,10 +15,11 @@ func _ready():
 	pass
 
 func _physics_process(delta):
-	
 	update_health()
-
-
+	if Globals.kills > 10 && Input.is_action_just_pressed("ui_accept"):
+		slam()
+		Globals.kills -= 4
+	
 	var input_vector = Vector2.ZERO
 	input_vector.x = Input.get_action_strength("ui_right") - Input.get_action_strength("ui_left") 
 	input_vector.y = Input.get_action_strength("ui_down") - Input.get_action_strength("ui_up") 
@@ -60,7 +61,9 @@ func shoot():
 func hit():
 	health -= 10
 	update_health()
-
+func slam():
+	var slam = load("res://New Attacks/Slam.tscn").instance()
+	add_child(slam)
 	
 
 	

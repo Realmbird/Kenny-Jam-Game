@@ -5,6 +5,7 @@ func _physics_process(delta):
 	
 
 func death():
+	Globals.kills += 1
 	$AnimationPlayer.play("Death")
 
 
