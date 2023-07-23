@@ -1,4 +1,4 @@
-[gd_scene load_steps=24 format=2]
+[gd_scene load_steps=25 format=2]
 
 [ext_resource path="res://Map.tres" type="TileSet" id=1]
 [ext_resource path="res://Player.tscn" type="PackedScene" id=2]
@@ -22,6 +22,7 @@
 [ext_resource path="res://Tiles/tile_0000.png" type="Texture" id=20]
 [ext_resource path="res://Chest.tscn" type="PackedScene" id=21]
 [ext_resource path="res://World.gd" type="Script" id=22]
+[ext_resource path="res://Sound/Innominate #5.mp3" type="AudioStream" id=23]
 
 [sub_resource type="TileSet" id=1]
 0/name = "tile_0009.png 0"
@@ -329,6 +330,9 @@ collision_layer = 1
 [node name="Timer" type="Timer" parent="World"]
 process_mode = 0
 autostart = true
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource( 23 )
 
 [connection signal="timeout" from="World/Timer" to="World" method="spawn"]
 

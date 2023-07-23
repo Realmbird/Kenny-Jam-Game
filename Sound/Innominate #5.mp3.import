@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Innominate #5.mp3-7143195ee710825f4447f331ee580a4e.mp3str"
+
+[deps]
+
+source_file="res://Sound/Innominate #5.mp3"
+dest_files=[ "res://.import/Innominate #5.mp3-7143195ee710825f4447f331ee580a4e.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
